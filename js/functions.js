@@ -36,4 +36,5 @@ document.querySelector('button').addEventListener('click', () => {
 
     document.getElementById('correct').innerHTML = correct
     document.getElementById('incorrect').innerHTML = incorrect
+    document.getElementById('answer_times').innerHTML= correct + incorrect
 })
